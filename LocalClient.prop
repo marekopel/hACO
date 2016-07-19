@@ -1,0 +1,5 @@
+hostname = localhost
+Xhostname = 192.168.0.10
+localname = BlAnna
+hostport = 8981
+debugMode = 1

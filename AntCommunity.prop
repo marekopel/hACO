@@ -1,0 +1,40 @@
+nIterations = 50
+mustBeClients = 1
+nRuns = 10 ile razy uruchamia kolonie wszystkie, serwer konczy po tylu runach, -1 zawsze
+CargoPoolSize = 10  ujemne do wektora ida wszystkie
+propagateFeromons = true przekazywanie DALEJ tablicy feromon�w
+
+
+nAnts = 50
+
+serialname = cdn50a.ser
+Xserialname = c.ser
+dynamicGraph = false
+showChanges = false
+pool = 10,0  o sumarycznie jaka warto�� maj� si� zmieni� odleg�o�ci
+scope = 0.5  modyfikacji zmiany w g�r� lub d� 
+interval = 10  co ile zmienia si� graf
+nGenerations = 3  rile razy zmienia� rozwi�zanie
+
+defCommand = XEMPTYRUN
+defCommand = WORK
+
+CargoRandomMode = false  
+
+ 
+EachIter = false
+pathView = false
+
+q0 = 0,8
+alpha = 0,1
+ro = 0,1
+beta = 2,0
+
+HostPort = 8981 
+XlogFileName = AntCommLogger31_1.txt
+logFileName = XXX.txt
+bestRoutesNo = 1  
+sleepTime = 100
+
+
+ 
